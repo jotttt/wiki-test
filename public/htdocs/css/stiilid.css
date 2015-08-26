@@ -1,23 +1,23 @@
 #wrapper {
-    min-height: 100%;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0;
-    display: inline-block;
+	min-height: 100%;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	display: inline-block;
 	overflow: auto;
 }
 #sidebar-wrapper {
-    height: 100%;
-    padding: 50px 0 0px 0;
-    position: fixed;
+	height: 100%;
+	padding: 0px 0 0px 0;
+	position: fixed;
 	background: #870042;
 }
 #sidebar {
-    position: relative;
-    height: 100%;
-    overflow: auto;
+	position: relative;
+	height: 100%;
+	overflow: auto;
 }
 #logo {
 	margin: 50px 0 0;
@@ -35,11 +35,11 @@
 }
 .list-group-item:first-child {
 	border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
 }
 .list-group-item:last-child {
 	border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
 }
 #toc ul {
 	background: transparent;
@@ -94,14 +94,65 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 	padding: 0 0px;
 }
 hr {
-    display: block;
+	display: block;
 	width: 150px;
-    height: 1px;
-    border: 0;
-    border-top: 3px solid white;
-    margin: 0 auto;
-    padding: 0;
+	height: 1px;
+	border: 0;
+	border-top: 3px solid white;
+	margin: 0 auto;
+	padding: 0;
 }
+
+/*DESKTOP VIEW*/
 @media (max-width: 1200px) {
+	.content {
+		padding: 0px 3% 0;
+	}
+}
+/*MOBILE VIEW*/
+@media (max-width: 768px) {
+	.container {
+		padding: 0;
+	}
+	#wrapper {
+		min-height: auto;
+		height: auto;
+		width: 100%;
+		position: relative;
+		top: 0px;
+		left: 0;
+		display: inline-block;
+		overflow: auto;
+	}
+	#sidebar-wrapper {
+		height: 100%;
+		padding: 0px 0 0px 0;
+		position: relative;
+		background: #870042;
+	}
+	#sidebar {
+		position: relative;
+		height: 100%;
+		overflow: auto;
+	}
+	.content {
+		padding: 40px 10px 0;
+	}
+	.btn-round, .btn-round:active, .btn-round:focus {
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		padding: 6px 0;
+		margin: 10px;
+		font-size: 12px;
+		line-height: 1.42;
+		border-radius: 25px;
+		background: #870042;
+		color: white;
+		outline: none;
+	}
+	#slidx_menu {
+		background-color: #870042;
+	}
 
 }
