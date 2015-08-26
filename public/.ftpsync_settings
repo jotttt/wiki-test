@@ -1,0 +1,1 @@
+{"connect":"SFTP","host":"wiki-test.intra.ttu.ee","port":"522","user":"johann","remoteRoot":"/var/www/tutwiki","privateKeyFile":"C:/Users/Johann.Laulik/PrivatData/PKI/20150805open_ssh.ppk"}
