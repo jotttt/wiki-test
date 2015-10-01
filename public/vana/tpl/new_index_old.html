@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="et">
+	<head>
+		<meta charset="utf-8">
+		<title>Tsentraalne identiteedi- ja rollipõhine juurdepääsuhaldus ehk TTÜ Uni-ID</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/stiilid.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div id="navigation-fixed">
+						<a href="new_search.html"><div id="logo"></div></a>
+						<h5 class="title text-center">Abimaterjalide wiki</h5>
+						<div id="search-field" class="text-center">
+							<form class="navbar-form" role="search" action="new_search_results.html" >
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="Otsi midagi..." name="srch-term" id="srch-term">
+									<div class="input-group-btn">
+										<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div id="nav-box" class="text-center">
+							<h5 class="title ">Sisukord</h5>
+
+							<p class="active">Sissejuhatus</p>
+							<p>Parooli loomine</p>
+							<p>Tarkvara laadimine</p>
+							<p>Tarkvara paidaldamine</p>
+							<p>Tarkvara kasutamine</p>
+							<p>Serveri andmed</p>
+
+						</div>
+					</div>
+				</div>
+				<div id="content" class="col-sm-9">
+					<div class="content-container">
+
+						<h5 class="author">UUENDAS: RAIDO KARRO | 24.09.2014, 12:09</h5>
+						<h1>VPN Kaugligipääs - Forticlient</h1>
+						<p>
+							TTÜ võrguga turvalise ühenduse loomiseks on töötajatel võimalik kasutada VPN-tunnelit (ingl k virtual private network).
+						</p>
+
+						<p>
+							VPN-tunneli loomiseks on vajalik eelnevalt arvutisse laadida FortiClient SSLVPN tarkvara. Kodu- või sülearvutist saab luua VPN ühenduse TTÜ sisevõrguga ning pääseda ligi ülikooli arvutitele remote desktopi tegemiseks, serveritele või nt ülikooli eelarvetele.
+						</p>
+
+						<!-- EDIT1 SECTION "VPN Kaugligipääs - Forticlient" [1-445] -->
+						<h2 class="sectionedit2" id="parooli_loomine">Parooli loomine</h2>
+						<div class="level2">
+
+							<p>
+								Teenuse kasutamiseks on vajalik <a href="/it/et/doc/uni-id" class="wikilink1" title="it:et:doc:uni-id">TTÜ Uni-ID konto</a>
+								<br/>
+
+							</p>
+
+						</div>
+						<!-- EDIT2 SECTION "Parooli loomine" [446-549] -->
+						<h2 class="sectionedit3" id="tarkvara_laadimine">Tarkvara laadimine</h2>
+						<div class="level2">
+
+							<p>
+								<strong>Eelseadistatud klientprogrammi saab Windowsile alla laadida siit:</strong>
+								<br/>
+
+								32-bitisele windowsile <a href="http://www.ttu.ee/FortiClient32.msi" class="urlextern" title="http://www.ttu.ee/FortiClient32.msi"  rel="nofollow"> www.ttu.ee/FortiClient32.msi</a><br/>
+
+								64-bitisele windowsile <a href="http://www.ttu.ee/FortiClient.msi" class="urlextern" title="http://www.ttu.ee/FortiClient.msi"  rel="nofollow"> www.ttu.ee/FortiClient.msi</a><br/>
+
+							</p>
+
+							<p>
+								<a href="http://windows.microsoft.com/et-ee/windows/32-bit-and-64-bit-windows#1TC=windows-7" class="urlextern" title="http://windows.microsoft.com/et-ee/windows/32-bit-and-64-bit-windows#1TC=windows-7"  rel="nofollow"> Vaadake siit kuidas tuvastada kas windows on 64 või 32 bitine</a>
+							</p>
+
+							<p>
+								<strong>Eelseadistamata klientprogramm Linuxile</strong>
+								<a href="http://www.ttu.ee/forticlient_linux.tar.gz" class="urlextern" title="http://www.ttu.ee/forticlient_linux.tar.gz"  rel="nofollow"> http://www.ttu.ee/forticlient_linux.tar.gz</a><br/>
+
+								<strong>Eelseadistamata klientprogramm Mac OsXile</strong>
+								<a href="http://www.ttu.ee/forticlient_macosx.dmg" class="urlextern" title="http://www.ttu.ee/forticlient_macosx.dmg"  rel="nofollow"> http://www.ttu.ee/forticlient_macosx.dmg</a><br/>
+
+								<strong>Eelseadistamata klientprogramm Windowsile</strong>
+								<a href="http://www.ttu.ee/forticlient_win.exe" class="urlextern" title="http://www.ttu.ee/forticlient_win.exe"  rel="nofollow"> http://www.ttu.ee/forticlient_win.exe</a><br/>
+
+							</p>
+
+						</div>
+						<!-- EDIT3 SECTION "Tarkvara laadimine" [550-1400] -->
+						<h2 class="sectionedit4" id="tarkvara_paidaldamine">Tarkvara paidaldamine</h2>
+						<div class="level2">
+
+							<p>
+								Tarkvara paigaldamiseks käivitage alla laetud fail ning jälgige ekraanil juhiseid.
+							</p>
+
+						</div>
+						<!-- EDIT4 SECTION "Tarkvara paidaldamine" [1401-1519] -->
+						<h2 class="sectionedit5" id="tarkvara_kasutamine">Tarkvara kasutamine</h2>
+						<div class="level2">
+
+							<p>
+								1. Pärast paigaldamist käivitage FortiClient VPN, <strong>NB!kui küsitakse kiipkaarti, siis vajutage „cancel“(võib juhtuda korduvalt)</strong><br/>
+
+								2. Sisestage oma kasutajanimi(username) ja parool(password) ning vajutage „connect“
+								<img src="/_media/it/et/doc/forticlient.png" class="media" alt="" /><br/>
+
+								3. Töö lõpetamisel katkestage FortiClient ühendus, vajutages „disconnect“
+							</p>
+
+						</div>
+						<!-- EDIT5 SECTION "Tarkvara kasutamine" [1520-1892] -->
+						<h2 class="sectionedit6" id="serveri_andmed">Serveri andmed</h2>
+						<div class="level2">
+
+							<p>
+								<strong>Eelseadistamata klientprogrammide seadistamiseks:</strong><br/>
+
+								<br/>
+
+								<strong>Serveri IP aadress:</strong> 193.40.244.197<br/>
+
+								<strong>Port:</strong> 10443<br/>
+
+								<br/>
+
+								<strong> Probleemide korral kontakeeruge <a href="/it/et/doc/contacts" class="wikilink1" title="it:et:doc:contacts">IT HelpDeskiga</a></strong>
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam consequatur obcaecati cupiditate, laudantium ab aliquid, iste porro labore fugiat omnis dolorum ea veritatis aliquam error harum distinctio tempora eveniet quis. Qui officia soluta esse dolorum, fugit quae rem dignissimos modi autem reprehenderit consectetur beatae fuga numquam, quam unde inventore voluptate quis maxime, laudantium ratione ipsum ab eum incidunt. Soluta cumque recusandae molestiae, sed corporis voluptatum earum ratione porro eveniet hic natus. Expedita recusandae autem dolor, perspiciatis accusantium corrupti fugiat culpa mollitia hic, reiciendis odio eos quaerat dignissimos aliquam ab iste, incidunt! Deserunt, accusantium culpa ipsa! Soluta iusto accusamus sit, dolorum tenetur reprehenderit fugit quisquam itaque voluptatem rerum aliquam, saepe debitis quas, odio explicabo ut odit natus repellat eum eveniet. Sequi, placeat molestiae nam, sunt porro illo. Debitis voluptas doloremque asperiores quo, vitae illum odit, a facilis? Cum esse quae corrupti, voluptatem doloremque ex in eaque accusantium illum voluptatibus sapiente debitis distinctio porro, amet nulla fugit aut numquam ab unde beatae harum qui eum. Eaque itaque neque accusamus iusto rem tempore vitae perspiciatis at accusantium quidem harum odio ex vel suscipit nulla provident eveniet officiis ipsam natus, vero, illo labore. Magnam tempora aperiam vero unde nesciunt, suscipit assumenda maiores saepe repellendus ullam, ratione harum officia facilis dolore similique architecto expedita quam sed quisquam. Consequatur sit corrupti et error reiciendis. Atque provident eveniet aut repellendus aperiam natus sequi nulla maiores veniam quisquam ut, necessitatibus, tempora molestias modi deserunt quo veritatis non amet vero dolores dicta iure eaque voluptatibus. Iste rem reiciendis sunt soluta, rerum hic officia a autem velit temporibus molestiae tenetur dolore sit voluptate excepturi ipsa perspiciatis. Deserunt corrupti magni qui expedita pariatur, quo unde iusto consectetur iure commodi, animi in dolorem culpa quam labore enim dolore vel nam neque iste mollitia nostrum debitis adipisci. Vel, odit aperiam! Eum consequatur voluptas asperiores officia rerum dolores, expedita vitae dolorem quam. Voluptatem ut veritatis numquam similique dolore adipisci ullam incidunt culpa non corporis rem esse ad illum, aperiam, soluta enim fugit, facere! Saepe odit vero, tempora accusantium aspernatur beatae maiores neque. Veritatis cum, in magnam vero nesciunt neque placeat. Maxime dolor in sequi aut recusandae blanditiis ipsam reprehenderit atque qui facere animi quidem veritatis perspiciatis impedit quas eligendi, facilis exercitationem dignissimos odit neque! Quidem reprehenderit ut ipsam accusantium dignissimos officia eos placeat itaque modi nobis consequatur dolor dicta quo, eaque autem asperiores unde! Alias sapiente officia nemo error hic voluptas aperiam quasi praesentium doloremque ducimus odit animi facilis blanditiis amet, qui explicabo. Iusto atque voluptates facilis voluptatibus dolorem blanditiis at dolorum totam suscipit explicabo adipisci libero soluta, rem deleniti, reiciendis nam deserunt consectetur cum impedit, exercitationem minima maiores aliquam! Necessitatibus corporis voluptates illo doloremque, quae nisi! Officiis voluptates ut fugiat magni aspernatur mollitia error modi odit libero tenetur laudantium fugit aliquid vitae similique, voluptas sint exercitationem delectus quas natus quisquam temporibus at, ex! Dignissimos iure sint, illo beatae eos, odio animi repudiandae asperiores architecto adipisci quia quis vitae. Id consequuntur maiores, eveniet ipsa! Culpa aliquid nesciunt inventore assumenda quae aspernatur dolores rem quia, alias quasi cum nihil excepturi ut recusandae, ipsum ad minus facilis doloribus non, iste labore. Et ullam, autem quod molestiae quae laboriosam nulla! Optio excepturi voluptatibus iste, neque amet totam praesentium doloribus ipsam velit, provident odio accusamus beatae vero. Itaque, aut labore, fugit esse tenetur sint veniam quae, eligendi iusto ratione rerum est quasi illum sed adipisci iure autem eaque incidunt obcaecati aliquid distinctio commodi sequi. Aliquid ab sed, quae, alias ipsa dicta dolor reprehenderit illo repellendus animi accusantium consectetur. Tempore, voluptate suscipit perspiciatis laborum illo inventore modi. Rem vel amet voluptas harum fugit hic, error earum sed, laborum nulla dolore consequuntur reiciendis cumque ab vitae debitis, dolorum adipisci possimus modi recusandae fugiat molestias asperiores inventore. Omnis et accusamus in sequi, molestiae officiis porro ipsam enim deleniti dolore itaque. Iusto ad, explicabo ratione provident aut. Nemo nihil, hic sint nesciunt explicabo quas. Quaerat libero consectetur consequuntur iusto cumque rerum, eos ut necessitatibus soluta tenetur, impedit voluptatem neque sequi, animi esse ratione iure id alias consequatur blanditiis doloribus fuga molestias adipisci. Quis necessitatibus fugit quia quaerat enim dolor nam provident harum ea, culpa laborum molestias praesentium, vero perspiciatis incidunt impedit, tempora unde alias quas et accusantium ipsam. Eum vero, quibusdam culpa consequatur, soluta maxime aliquid animi placeat quaerat ipsum et quasi error deserunt amet beatae provident. Fugit fugiat, fuga voluptatum! Laudantium ex fugiat obcaecati ratione facere optio rem enim doloremque harum cumque labore quaerat sequi similique animi, amet, odit? Nihil tenetur illo dicta, ut illum alias adipisci soluta expedita delectus a at odit iste, unde voluptatum distinctio. Quo, eos. Perspiciatis autem nostrum deserunt fugiat sunt. Aut, excepturi dolores nisi quis at magni quisquam velit deleniti? Cupiditate saepe iure consequuntur praesentium, cumque iste repellat maxime, suscipit, libero est vel ducimus quos atque nesciunt voluptatum velit repellendus labore consequatur nemo modi error rem.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- SCRIPTID ------------------------------------------>
+		<script type="text/javascript" src="../ext/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="../ext/bootstrap/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/main.js"></script>
+	</body>
+</html>
